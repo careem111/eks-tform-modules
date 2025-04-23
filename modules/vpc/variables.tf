@@ -17,6 +17,12 @@ variable "vpc_name" {
   
 }
 
+variable "vpc_tag" {
+    description = "vpc tag"
+    type = string
+  
+}
+
 variable "az1" {
     description = "availability zone"
     type = string
